@@ -1,7 +1,7 @@
 {
   "openapi": "3.0.1",
   "info": {
-    "title": "My API",
+    "title": "Beer Api",
     "version": "v1"
   },
   "paths": {

@@ -1,30 +1,28 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\zackary.wiseman\\Documents\\personalCode\\BeerApi\\BeerApi.csproj": {}
+    "/Users/zackwiseman/Documents/code/BeerApi/BeerApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\zackary.wiseman\\Documents\\personalCode\\BeerApi\\BeerApi.csproj": {
+    "/Users/zackwiseman/Documents/code/BeerApi/BeerApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\zackary.wiseman\\Documents\\personalCode\\BeerApi\\BeerApi.csproj",
+        "projectUniqueName": "/Users/zackwiseman/Documents/code/BeerApi/BeerApi.csproj",
         "projectName": "BeerApi",
-        "projectPath": "C:\\Users\\zackary.wiseman\\Documents\\personalCode\\BeerApi\\BeerApi.csproj",
-        "packagesPath": "C:\\Users\\zackary.wiseman\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\zackary.wiseman\\Documents\\personalCode\\BeerApi\\obj\\",
+        "projectPath": "/Users/zackwiseman/Documents/code/BeerApi/BeerApi.csproj",
+        "packagesPath": "/Users/zackwiseman/.nuget/packages/",
+        "outputPath": "/Users/zackwiseman/Documents/code/BeerApi/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\zackary.wiseman\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/zackwiseman/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -41,6 +39,10 @@
       "frameworks": {
         "netcoreapp3.0": {
           "dependencies": {
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.9.1, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[5.0.0-rc3, )"
@@ -64,7 +66,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.0.100/RuntimeIdentifierGraph.json"
         }
       }
     }
