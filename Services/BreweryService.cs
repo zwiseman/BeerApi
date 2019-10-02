@@ -11,9 +11,9 @@ namespace BeerApi.Services
 
         public BreweryService(IBrewerySettings settings)
         {
-            var client = new MongoClient(settings.ConnectionString);
-            var database = client.GetDatabase(settings.DatabaseName);
-            _brewery = database.GetCollection<Brewery>(settings.DatabaseName);
+            var client = new MongoClient("mongodb://localhost:27017");
+            var database = client.GetDatabase("BeerApp");
+            _brewery = database.GetCollection<Brewery>("BeerApp");
         }
 
         public List<Brewery> Get() =>
